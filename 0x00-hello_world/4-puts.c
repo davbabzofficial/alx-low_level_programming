@@ -2,7 +2,7 @@
 /**
  * main - Printing
  *
- * Retrun: Always 0 (Success)
+ * description - Always 0 (Successful)
  */
 int main(void)
 {
