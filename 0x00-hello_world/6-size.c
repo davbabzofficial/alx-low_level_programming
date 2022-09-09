@@ -1,22 +1,21 @@
 #include<stdio.h>
 
 /**
- * main - Prints the sizeof many var types
+ * main - Prints the sizeof many var type
  *
- * Retunr: Always 0 (Successful)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char a = '1';
-	int b = 4;
-	long int c = 4;
-	long long int d = 8;
-	float e = 4;
-
-	printf("Size of a char: %c byte(s)\n", sizeof(a));
-	printf("Size of an int: %d byte(s)\n", sizeof (b));
-	printf("Size of a long int: %d byte(s)\n", sizeof(c));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
-	printf("Size of a float: %f byte(s)\n", sizeof(e));
-	return (0);
+	int i;
+	char c;
+	long int l;
+	long long int ll;
+	float f;
+printf("Size of a char: %ld byte(s)\n", sizeof(c));
+printf("Size of an int: %ld byte(s)\n", sizeof(i));
+printf("Size of a long int: %ld byte(s)\n", sizeof(l));
+printf("Size of a long long int: %ld byte(s)\n", sizeof(ll));
+printf("Size of a float: %ld byte(s)\n", sizeof(f));
+	retrun (0);
 }
