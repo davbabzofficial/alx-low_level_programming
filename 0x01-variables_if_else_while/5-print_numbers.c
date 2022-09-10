@@ -1,19 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Print if the number is positive, zero, or negative
+ * main -Entry point
  *
- * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
- * Return: 0
+ * Return: Always o (success)
  */
 int main(void)
 {
 	int i;
-
-	for (i = 0 ; i < 10 ; i++)
-	{
-printf('%i', i);
-	}
+	
+	for (i = 0; i < 10; i++){
+	printf("%d", i);}
 	printf("\n");
 	return (0);
 }
