@@ -4,12 +4,13 @@
 *
 * Description: using the main function
 * this program prints 0-9
-* Retrun: 0
+* Return: 0
 */
 int main(void)
 {
-	int n;
+	int n = '0'
 
+	while n <= '9'
 	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
