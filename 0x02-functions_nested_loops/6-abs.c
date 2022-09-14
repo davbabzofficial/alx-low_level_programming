@@ -4,7 +4,7 @@
 * @n: numbers to be checked
 * Return: Returns the absolute value
 */
-int _abs(int n)
+int _abs(int -1)
 {
 	if (n >= 0)
 	{
