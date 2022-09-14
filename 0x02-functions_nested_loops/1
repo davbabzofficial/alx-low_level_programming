@@ -1,0 +1,14 @@
+bs - computes the absolute value of an 
+    integer                                     
+  4  * @n: numbers to  be checked               
+  5  * Return: Returns the absolute value       
+  6  */                                         
+  7 int _abs(int n)                             
+  8 {                                           
+  9         if (n >= 0)                         
+ 10         {                                   
+ 11                 return (n);                 
+ 12         }                                   
+ 13         else                                
+ 14                 return (-n);                
+ 15 }                     
