@@ -1,15 +1,17 @@
+#include <stdio.h>
+#include <limits.h>
 #include "main.h"
+
 /**
-* _abs - computes the absolute value of an integer
-* @n: numbers to be checked
-* Return: Returns the absolute value
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
 */
-int _abs(int n)
+int main(void)
 {
-	if (n >= 0)
-	{
-		return (n);
-	}
-	else
-		return (-n);
+	int r;
+
+	r = _abs(-1);
+	printf("%d\n", r);
+	return (0);
 }
