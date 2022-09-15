@@ -15,19 +15,26 @@ int main(void)
 		{
 		printf("FizzBuzz");
 		}
-		else if ((num % 5) == 0
+	else if ((num % 3) == 0)
 		{
-		if (num != 100)
+	printf("Fizz");
+		}
+	else if ((num % 5) == 0)
+		{
+	if (num != 100)
 		{
 		printf("Buzz");
 		}
-		else
+	else
 		{
 		printf("Buzz");
-		{
+		}
+	}
+	else
+	{
 printf("%d", num);
 		}
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
