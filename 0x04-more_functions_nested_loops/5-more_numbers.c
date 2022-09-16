@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*more_numbers - prints numbers to 14
+* more_numbers - prints numbers to 14
 *
-*Return: 0
+* Return: 0
 */
 
 void more_numbers(void)
