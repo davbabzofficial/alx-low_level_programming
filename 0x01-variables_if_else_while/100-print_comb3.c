@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
 * main - prints single digit numbers starting from 0
 *
@@ -6,24 +6,27 @@
 */
 int main(void)
 {
-int i, j;
+	int c = 0;
+	int f_d;
+	int l_d;
 
-	for (i = 0; j <= 9; j++)
+	while (c <= 99)
 	{
-		for (j = 1; j <= 9; j++)
+		f_d = (c / 10 + '0');
+		l_d = (c % 10 + '0');
+
+		if (f_d < l_d)
 		{
-			if (j > i)
-			{
-				putchar(i + '0');
-				putchar(j + '0');
-				if (i != 8)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
+		putchar(f_d);
+		putchar(l_d);
+		if (c != 89)
+		{
+		putchar(',');
+		putchar(' ');
 		}
 	}
-	putchar('\n');
-	return (0);
+	c++
+}
+putchar('\n');
+return (0);
 }
