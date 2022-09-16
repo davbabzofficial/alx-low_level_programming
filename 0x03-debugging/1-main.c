@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int 1;
-	printf("Infinite loop incoming :(\n");
+	int i;
 
-	1 = 0;
+	printf("Infinite loop incoming :(\n");
+	i = 0;
 
 	/* while (1 < 10)*/
 	/* {*/
