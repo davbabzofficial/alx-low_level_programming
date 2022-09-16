@@ -5,6 +5,7 @@
 * For multiples of three print Fizz instead of the number and
 * for the mutiples of five print Buzz.
 * For numbers which are multiples of both three and five print FizzBuzz.
+*
 * Return: Always 0.
 */
 int main(void)
@@ -17,7 +18,7 @@ int main(void)
 			printf("%d", n);
 		else if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			printf("FizzBuzz");
+			printf(" FizzBuzz");
 		}
 		else if (n % 3 == 0)
 		{
