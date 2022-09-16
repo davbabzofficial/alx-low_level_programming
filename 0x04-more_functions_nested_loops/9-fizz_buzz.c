@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-	int h = 1;
+	int h;
 
-	while (h <= 100)
+	while (n= 1; h <= 100; n++)
 	{
 	if (h % 3 == 0 && h % 5 == 0)
 	printf("FizzBuz ");
