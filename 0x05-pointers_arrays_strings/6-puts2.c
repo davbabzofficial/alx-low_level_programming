@@ -2,6 +2,7 @@
 /**
 * puts - prints every other character
 * @str: string
+* Retrun: void
 */
 
 void puts2(char *str)
