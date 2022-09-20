@@ -11,8 +11,8 @@ void rev_string(char *s)
 	len = 0;
 
 	while (s[len] != '\0')
-		len++
-	len--
+		len++;
+	len--;
 	for (count = 0; count <= len / 2; count++)
 	{
 		beg = s[count];
