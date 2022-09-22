@@ -8,7 +8,7 @@
 * Return: concatenated string
 */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	char *temp = dest;
 
@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src, int n)
 		if (n == 0)
 			break;
 		*temp = *src;
-		tmep++;
+		temp++;
 		n--;
 	}
 	return (dest);
