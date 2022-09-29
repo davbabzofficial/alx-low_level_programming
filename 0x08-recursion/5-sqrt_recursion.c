@@ -8,7 +8,7 @@
 int square(int n, int val)
 {
 	if (val * val == n)
-i		return (val);
+		return (val);
 	if (val * val < n)
 		return (square(n, val + 1));
 	return (-1);
