@@ -34,3 +34,14 @@ int cmp(char *c1, char *c2)
 	}
 	return (0);
 }
+
+/**
+* wildcmp - compare string 1 and string 2 using wildcard
+* @s1: string 1
+* @s2: string 2
+* Return: return 0 if no match return 1 if match
+*/
+int wildcmp(char *s1, char *s2)
+{
+	return (cmp(s1, s2));
+}
