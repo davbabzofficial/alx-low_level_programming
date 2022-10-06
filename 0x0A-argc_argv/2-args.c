@@ -2,9 +2,9 @@
 
 /**
 * main - function that prints all arguments it receives
-* @argc: the size of the argv array, the number of command line arguments
+* @argc: th size of the argv array, the number of command line arguments
 * @argv: an array containing the program command line arguments
-* Retrun: 0 if successful
+* Return: 0 if successful
 */
 
 int main(int argc, char *argv[])
