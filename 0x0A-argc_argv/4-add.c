@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* chartoit - function that checks array of characters for integers
+* chartoint - function that checks array of characters for integers
 * @c: array of characters
 * Return: 0 if successful, -1 if fails
 */
