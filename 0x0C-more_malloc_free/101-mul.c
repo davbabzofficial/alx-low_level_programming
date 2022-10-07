@@ -39,7 +39,7 @@ int _strlen(char *s)
 }
 
 /**
-* errors: handles errors for main
+* errors - handles errors for main
 */
 void errors(void)
 {
@@ -49,8 +49,8 @@ void errors(void)
 
 /**
 * main - multiplies two positive numbers
-* argc: number of arguments
-* argv: arrays of arguments
+* @argc: number of arguments
+* @argv: array of arguments
 *
 * Return: always 0 (Success)
 */
