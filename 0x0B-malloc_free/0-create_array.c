@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* creat_array - creats an array of chars, and initializes it with a char
+* create_array - creates an array of chars, and initializes it with a char
 * @size: size of array
 * @c: specific char
 * Return: returns a pointer to the array, or NULL if it fails
 */
-char *creat_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *ptr;
 	unsigned int x;
