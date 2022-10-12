@@ -18,7 +18,7 @@ int main(int  __attribute__((__unused__)) argc, char *argv[])
 	exit(98);
 	}
 
-	num1 = atoi(argc[1]);
+	num1 = atoi(argv[1]);
 	op = argv[2];
 	num2 = atoi(argv[3]);
 
