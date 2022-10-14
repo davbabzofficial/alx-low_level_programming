@@ -13,7 +13,7 @@ char letter;
 
 letter = va_arg(arg, int);
 
-	printf("%c", letter);
+printf("%c", letter);
 }
 
 /**
@@ -98,7 +98,7 @@ if (j < 4)
 {
 printf("%s", separator);
 funcs[j].print(args);
-separator = ",";
+separator = ", ";
 }
 
 i++;
