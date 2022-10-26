@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lists.h"
 /**
 * pop_listint - function that deletes the head nopde of a linked list
@@ -8,15 +7,16 @@
 int pop_listin(listint_t **head)
 {
 	listint_t *temp;
-	int data;
+	int head_ data;
 
-	if (*head == NULL)
+	if (*head || !*head)
 		return (0);
 
+	head_data = (*head)->n;
 	temp = *head;
-	data = (*head)->n;
 	*head = (*head)->next;
-
 	free(temp);
-	return (data);
+
+
+	return (head_data);
 }
